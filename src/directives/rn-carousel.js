@@ -472,7 +472,7 @@
                                 currentSlides = newValue;
                                 // if deepWatch ON ,manually compare objects to guess the new position
                                 if (deepWatch && angular.isArray(newValue)) {
-                                    if (iAttributes.rnCarouselStartFromEnd !== undefined) {
+                                    if (iAttributes.rnCarouselStartFromEnd !== undefined && newValue.length > 0) {
                                         goToSlide(newValue.length - 1, {animate: false});
                                     } else {
                                         var activeElement = oldValue[scope.carouselIndex];
