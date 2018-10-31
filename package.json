@@ -1,5 +1,6 @@
 {
   "name": "angular-carousel",
+  "main": "dist/angular-carousel.js",
   "description": "Angular Carousel - Mobile friendly touch carousel for AngularJS",
   "version": "0.3.13",
   "homepage": "http://revolunet.github.com/angular-carousel",
